@@ -3,13 +3,20 @@ package com.example.aurora;
 public abstract class Shape {
     protected int x;
     protected int y;
+    protected String color = "blue";
 
 
     public Shape(int x, int y) {
         this.x = x;
         this.y = y;
     }
+    public String getColor() {
+        return color;
+    }
 
+    public void setColor(String color) {
+        this.color = color;
+    }
 
     public int getX() {
         return x;
