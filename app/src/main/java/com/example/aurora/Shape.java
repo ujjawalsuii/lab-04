@@ -3,6 +3,8 @@ package com.example.aurora;
 public abstract class Shape {
     protected int x;
     protected int y;
+    protected String color = "red";
+
 
 
     public Shape(int x, int y) {
@@ -10,6 +12,15 @@ public abstract class Shape {
         this.y = y;
     }
 
+    public String getColor() {
+        return color;
+
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+
+    }
 
     public int getX() {
         return x;
