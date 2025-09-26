@@ -1,2 +1,2 @@
-My CCID: <amshaik1>\n
+My CCID: amshaik1  
 Name: Abubakar Shaikh
